@@ -1,0 +1,21 @@
+{
+  "name": "ModulaCore",
+  "alias": "modulacore",
+  "description": "",
+  "keywords": [],
+  "active": 1,
+  "order": 0,
+  "providers": [
+    "Modules\\ModulaCore\\Providers\\ModulaCoreServiceProvider",
+    "Intervention\\Image\\ImageServiceProvider",
+    "Laracasts\\Flash\\FlashServiceProvider"
+  ],
+  "aliases": {},
+  "files": [
+    "start.php"
+  ],
+  "require": {
+    "intervention/image": "^2.2",
+    "laracasts/flash": "^1.3"
+  }
+}
